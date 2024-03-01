@@ -57,6 +57,9 @@ nav{
     font-weight: 800;
     font-size: 2.1rem;
 }
+.wander{
+    color: rgb(255, 84, 0);
+}
 nav ul{
     display: flex;
     gap: 3rem;
@@ -139,8 +142,37 @@ nav ul li a{
 .popular-tour-img img{
     height: 550px;
     border-radius: 16px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     }
 .p-unorder-list{
     margin: 1rem 0;
     margin-left: 3rem;
+}
+
+
+
+footer{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-content{
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    padding: 4rem 0;
+}
+.footer-content p{
+    margin: 2rem 0;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.footer-content ul li{
+    list-style: none;
+}
+.footer-content hr{
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin: 2rem 0;
 }
