@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+/* Shared style */
+.common-heading{
+    color: rgb(19, 19, 24);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 2rem;
+
+}
+.common-p{
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.common-button{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-weight: 800;
+    font-size: 1.1rem;
+    line-height: 25px;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+/* Header */
+header, main{
+    width: 80%;
+    margin: 5rem auto;
+    align-items: center;
+    
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.nav-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 2.1rem;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(66, 66, 71);
+    font-size: 1.2rem;
+    line-height: 23px;
+    text-decoration: none;
+}
+.nav-home{
+    color: rgb(255, 84, 0);
+}
+
+/* Banner styles */
+.banner-section{
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    width: 100%;
+    margin: 3rem 0;
+    border-radius: 16px;
+    
+}
+.banner-container{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
+}
+.banner-content{
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10rem 0;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+}
+.banner-content p{
+    margin: 2rem 0;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+.times-places{
+    display: flex;
+    justify-content: space-between;
+}
+.time-points{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 1rem;
+    line-height: 20px;
+    color: rgba(19, 19, 24, 0.5);
+}
+.find-now-button{
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+}
+.fa-search{
+    margin-right:0.5rem;
+}
+
+/* Popular tour */
+.popular-tour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.popular-tour-content{
+    max-width: 577px;;
+    height: 550px;
+}
+.popular-tour-img img{
+    height: 550px;
+    border-radius: 16px;
+    }
+.p-unorder-list{
+    margin: 1rem 0;
+    margin-left: 3rem;
+}

@@ -3,15 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Go Wander</title>
+    <title> Go Wander </title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/d0056ec085.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-
+        <!-- nav section -->
+        <nav>
+            <div class="nav-logo-container">
+                <div><img src="./Images/Group 40071 (2).png" alt=""></div>
+                <div><h3 class="nav-title">Go Wander</h3></div>
+            </div>
+            <ul>
+                <li><a href="#"><span class="nav-home">Home</span></a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                
+                
+            </ul>
+        </nav>
+        <!-- banner section -->
+        <section class="banner-section">
+            <div class="banner-container">
+                <div class="banner-content">
+                    <h1>Explore Your Travel</h1>
+                    <p>Explore the world, its wonders, and yourself. From tranquil escapes to vibrant cities, let each adventure ignite your curiosity and enrich your soul. Travel, explore, and find your path.</p>
+                    <div class="times-places">
+                        <div>
+                        <input type="text" id="username" name="username" placeholder="Where go" class="time-points">
+                        </div>
+                        <div>
+                            <select id="country" name="country" class="time-points">
+                            <option value="common-places">When</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Germany">Germany</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select id="country" name="country" class="time-points">
+                            <option value="common-type">Select Type</option>
+                            <option value="Canada">Canada</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Germany">Germany</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="find-now-button time-points"><i class="fas fa-search"></i>Find Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
     </header>
     <main>
-
+        <!-- Popular Tour section -->
+        <section>
+            <div class="popular-tour">
+                <div class="popular-tour-content">
+                    <h2 class="common-heading">Our Popular Tours</h2>
+                <div class="common-p">
+                    <p>
+                        Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
+                        <ul class="p-unorder-list">
+                            <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
+                            <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                            <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                        </ul>
+                        Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. 
+                    </p>
+                </div>
+                <button class="common-button">Read More</button>
+                </div>
+                <div class="popular-tour-img"><img src="./Images/Rectangle 9.png" alt=""></div>
+            </div>
+            
+        </section>
     </main>
     <footer>
 
