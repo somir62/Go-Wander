@@ -204,7 +204,13 @@ nav ul li a{
 
 
 
-
+/* Perfect plane */
+.video-tour{
+    max-width: 700px;
+    height: auto;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24, 0) 100%);
+}
 
 
 
@@ -213,8 +219,9 @@ nav ul li a{
 .newsletter-conatainer{
     margin-top: 4rem;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
+    flex: 1;
     gap: 3rem;
     
 }
@@ -260,6 +267,30 @@ input[type="email"]::placeholder {
     background: rgb(255, 84, 0);
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
+    font-weight: 800;
+  }
+  .newsletter-conatainer img{
+    position: relative;
+  }
+  .token{
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    position: absolute;
+    bottom: -1845px;
+     }
+  .token h6{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .token h4{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
     font-weight: 800;
   }
 
