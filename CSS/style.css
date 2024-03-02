@@ -83,7 +83,7 @@ nav ul li a{
 
 /* Banner styles */
 .banner-section{
-    background-image: url(/Images/baner-img.png);
+    background-image: url(./Images/baner-img.png);
     background-size: cover;
     width: 100%;
     margin: 3rem 0;
