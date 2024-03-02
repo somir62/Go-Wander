@@ -90,7 +90,7 @@ nav ul li a{
 }
 .banner-content{
     max-width: 800px;
-    height: 400px;
+    height: auto;
     margin: 0 auto;
     padding: 10rem 0;
     text-align: center;
@@ -108,7 +108,10 @@ nav ul li a{
 }
 .times-places{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
 }
 .time-points{
     width: 174px;
@@ -303,7 +306,7 @@ input[type="email"]::placeholder {
 
 
 
-/* fooer */
+/* footer */
 footer{
     width: 100%;
     background: rgba(19, 19, 24, 0.05);
@@ -335,6 +338,18 @@ footer{
 @media screen and (max-width:600px) {
     nav ul{
         display: none;
+    }
+    .banner-content{
+        padding: 2rem;
+    }
+    .banner-content h1{
+        font-size: 2rem;
+    }
+    .time-points{
+        width: 100%;
+    }
+    .inputText{
+        margin-right: 1rem;
     }
 
 
