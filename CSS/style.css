@@ -352,9 +352,6 @@ input[type="email"]::placeholder {
 
 
 
-
-
-
 /* footer */
 footer{
     width: 100%;
@@ -385,6 +382,9 @@ footer{
 
 /* Responsive layout */
 @media screen and (max-width:600px) {
+   header{
+    margin-top: 2rem;
+   } 
     .common-heading{
         font-size: 2rem;
     }
