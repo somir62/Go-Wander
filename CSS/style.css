@@ -158,7 +158,18 @@ nav ul li a{
     margin: 1rem 0;
     margin-left: 3rem;
 }
+.li-two{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Choose your Desctination */
+.why-choose-use-content p, 
+.why-choose-use-content p{
+    max-width: 643px;
+    margin: 0 auto;
+    text-align: center;
+}
 .row{
     margin: 0 auto;
     display: flex;
