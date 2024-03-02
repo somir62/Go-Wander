@@ -152,8 +152,35 @@ nav ul li a{
     margin: 1rem 0;
     margin-left: 3rem;
 }
-
-
+/* Choose your Desctination */
+.row{
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.img-content{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.caption{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 35px;
+}
+.img-content img{
+        width: 100%;
+        height: auto;
+}
 
 
 
@@ -336,6 +363,9 @@ footer{
 
 /* Responsive layout */
 @media screen and (max-width:600px) {
+    .common-heading{
+        font-size: 2rem;
+    }
     nav ul{
         display: none;
     }
