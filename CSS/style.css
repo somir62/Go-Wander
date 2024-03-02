@@ -83,7 +83,7 @@ nav ul li a{
 
 /* Banner styles */
 .banner-section{
-    background-image: url(./Images/baner-img.png);
+    background-image: url(/Images/baner-img.png);
     background-size: cover;
     width: 100%;
     margin: 3rem 0;
@@ -92,7 +92,7 @@ nav ul li a{
 }
 .banner-container{
     border-radius: 16px;
-    /* background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%); */
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%);
 }
 .banner-content{
     max-width: 800px;
