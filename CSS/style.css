@@ -60,6 +60,7 @@ nav{
 .wander{
     color: rgb(255, 84, 0);
 }
+
 nav ul{
     display: flex;
     gap: 3rem;
@@ -74,6 +75,11 @@ nav ul li a{
 .nav-home{
     color: rgb(255, 84, 0);
 }
+
+#check, #checkbtn{
+    display: none;
+}
+
 
 /* Banner styles */
 .banner-section{
@@ -216,6 +222,12 @@ nav ul li a{
     border-radius: 16px;
     background: rgba(41, 206, 246, 0.05);
 }
+.card-three{
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
 .card-content{
     padding: 2rem;
     display: flex;
@@ -235,20 +247,30 @@ nav ul li a{
 
 
 
-/* Perfect plane */
+/* Perfect place */
+.perfect-pace{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 5rem;
+}
 .video-tour{
     max-width: 700px;
     height: auto;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24, 0) 100%);
 }
+.perfect-places{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 
 
 
 /* News Letter */
 .newsletter-conatainer{
-    margin-top: 4rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -366,15 +388,62 @@ footer{
     .common-heading{
         font-size: 2rem;
     }
-    nav ul{
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    #check{
         display: none;
     }
+    #checkbtn {
+        display: block;
+    }
+    .nav-logo-container{
+        order: 1;
+    }
+    .nav-title{
+        font-size: 1.2rem;
+        order: 1;
+    }
+    nav ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    z-index: 1; 
+    padding: 1rem;
+    order: 3;
+    }
+    nav ul li {
+        margin-bottom: 1rem;
+    }
+    nav ul li a{
+        display: block;
+    }
+    input[type="checkbox"]:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .checkbtn{
+        display: block;
+        order: 2;
+    }
+
+
+    
+
     .banner-content{
         padding: 2rem;
     }
     .banner-content h1{
         font-size: 2rem;
     }
+    
     .time-points{
         width: 100%;
     }
@@ -383,12 +452,17 @@ footer{
     }
 
 
-    .times-places, .popular-tour, .newsletter-conatainer{
+    .times-places, .row, .popular-tour, .newsletter-conatainer, .perfect-places{
         flex-direction: column;
         gap:2rem
     }
+    .img-content img{
+        width: 400px;
+        height: 200px;
+    }
     .video-tour{
         width: 100%;
+        margin-top: 4rem;
     }
     
     .footer-content{
