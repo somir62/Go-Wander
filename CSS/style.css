@@ -83,7 +83,7 @@ nav ul li a{
 
 /* Banner styles */
 .banner-section{
-    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: url(/Images/baner-img.png);
     background-size: cover;
     width: 100%;
     margin: 3rem 0;
@@ -374,8 +374,7 @@ input[type="email"]::placeholder {
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    background: linear-gradient(120deg, #2E52C2 0%, #CCA9E1 100%);
-    border-radius: 16px;
+
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -412,11 +411,12 @@ input[type="email"]::placeholder {
     justify-content: space-evenly;
     align-items: center;
     gap: 2rem;
-}
+   }
 .review {
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 16px;
   }
   
   .rating {
