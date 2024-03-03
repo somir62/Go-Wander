@@ -83,7 +83,7 @@ nav ul li a{
 
 /* Banner styles */
 .banner-section{
-    background-image: url(/Images/baner-img.png);
+    background-image: url(./Images/baner-img.png);
     background-size: cover;
     width: 100%;
     margin: 3rem 0;
@@ -260,7 +260,79 @@ nav ul li a{
     line-height: 30px;
 }
 
-
+/* Deals $ Discounts */
+.deals-discounts{
+    display: none;
+}
+.deals-discounts-container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+.discounts-cards-container{
+    background-image: url(./Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    width:  100%;
+    height: 500px;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    align-items: center;
+}
+.cards{
+    max-width: 579px;
+    height: 389px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5rem;
+    position: absolute;
+}
+.deals-cards{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    max-width: 579px;
+    height: 389px;
+    margin-right: 5rem;
+}
+.cards-content{
+    padding: 3rem;
+    max-width: 452px;
+    
+}
+.time-date-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    color: rgb(255, 84, 0);
+}
+.dates-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+.deals-title{
+    margin-top: 1rem;
+}
+.deals-p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.price{
+    color: rgb(255, 84, 0);
+}
 
 /* Perfect place */
 .perfect-pace{
@@ -277,6 +349,25 @@ nav ul li a{
 .perfect-places{
     display: flex;
     justify-content: space-between;
+}
+.video-container{
+    text-align: center;
+    position: relative;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
+.video-container .caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: rgb(19, 1, 1);
+    font-size: 1rem;
+    text-align: center;
+    z-index: 1;
 }
 
 
@@ -368,41 +459,17 @@ input[type="email"]::placeholder {
   }
 
 
-/* offer section */
-/* .offer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-.offer-container{
-    max-width: 525px;
-    color: #fff;
-    padding-left: 5rem;
-}
-.offer-container h3, 
-.offer-container p{
-    color: whitesmoke;
-}
-.offer-img img{
-    width: 100%;
-}
-.offer-token{
-    color: rgb(255, 84, 0);
-} */
 
 /* review section */
 .review-container{
     margin: 0 auto;
     text-align: center;
     margin-top: 5rem;
+    text-transform: uppercase;
 }
 .smart-font{
-    font-family: "Kristi", cursive;
-    font-size: 6rem;
+    font-family: "Stylish", serif;
+    font-size: 5rem;
     color: #229954 ;
     margin-bottom: 2rem;
 }
@@ -453,7 +520,31 @@ input[type="email"]::placeholder {
     color: #229954;
   }
   
-
+.review-one{
+    box-sizing: border-box;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+.review-two{
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+.review-three{
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+.review-four{
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(180, 235, 250, 0.05);
+    
+}
 
 
 
@@ -572,6 +663,9 @@ footer{
         right: -4%;
         transform: translate(0 -50%);
          }
+    .smart-font{
+        font-size: 2rem;
+    }
     .offer-container{
         padding: 1rem;
         margin: 0 auto;
