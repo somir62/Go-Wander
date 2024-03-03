@@ -261,34 +261,53 @@ nav ul li a{
 }
 
 /* Deals $ Discounts */
-/* .deals-discounts{
-    
-} */
-.deals-discounts{
-    display: none;
-}
+
 .deals-discounts-container{
     margin: 0 auto;
     text-align: center;
     margin-top: 4rem;
     width: 100%;
+    max-width: 643px;
+    margin-bottom: 12rem;
+}
+.three-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+.discount-banner{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 20;
+    left: 30;
+    z-index: -1;
 }
 .discounts-cards-container{
-    background-image: url(./Images/Group\ 39.png);
-    background-repeat: no-repeat;
     width:  100%;
     height: 500px;
     margin: 0 auto;
     align-items: center;
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
     margin: 0 auto;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.card-similar{
+    margin-left: auto;
+    margin-right: 5%;
+}
+#second-card{
+    margin-right: auto;
+    margin-left: 5%;
 }
 .cards{
     max-width: 579px;
-    height: 389px;
+    height: auto;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
@@ -297,7 +316,7 @@ nav ul li a{
     padding: 5rem;
     position: absolute;
     width: calc(100% - 10rem);
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -649,11 +668,48 @@ footer{
     .inputText{
         margin-right: 1rem;
     }
-
-
-    .times-places, .row, .popular-tour, .newsletter-conatainer, .perfect-places, .offer, .r-container{
+    .times-places, 
+    .row, 
+    .popular-tour, 
+    .newsletter-conatainer, 
+    .perfect-places, .offer, 
+    .r-container{
         flex-direction: column;
         gap:2rem
+    }
+    .discounts-cards-container{
+        flex-direction: column;
+        align-items: center; 
+    }
+    .deals-cards{
+        width: 100%;
+        margin-bottom: 10rem;
+    }
+    .discounts-cards-container {
+        background-image: url(../Images/Group\ 39.png); 
+        background-size: cover;
+        background-position: center;
+        border-radius: 16px;
+        height: 700px;
+    }
+    
+    .cards{
+        padding: 2rem;
+    }
+    .cards-content{
+        padding: 1rem;
+    }
+    #second-card{
+        margin: 0;
+    }
+    .deals-cards {
+        margin: 0; 
+        margin-bottom: 2rem; 
+    }
+    .time-date-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .img-content img{
         width: 400px;
@@ -667,7 +723,7 @@ footer{
         width: 250px;
         height: 100px;
         top: 80%;
-        right: -4%;
+        right: -5%;
         transform: translate(0 -50%);
          }
     .smart-font{
